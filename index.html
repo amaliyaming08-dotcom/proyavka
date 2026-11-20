@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проявка</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/image/logo/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <a href="#education" class="btn">Обучение</a>
+                <a href="#about" class="btn">О нас</a>
+                <a href="#faq" class="btn">Ответы на вопросы</a>
+            </div>
+
+            <div class="header_center">
+                <a href="#about" class="btn btn-logo"><img src="assets/image/logo/logo-header.svg" alt=""></a>
+            </div>
+
+            <div class="header_right">
+                <a href="#form" class="btn">Оставить заявку</a>
+                <a href="#form" class="btn arrow"><img src="assets/icons/arrow-right.svg" alt="Стрелка"></a>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!--HERO -->
+    <section class="hero">
+        <div class="hero_top" aria-hidden="true">
+            <div class="hero_band hero_band--right"></div>
+        </div>
+        <img class="hero_middle" src="assets/image/hero/center.png" alt="">
+        <div class="hero_bottom" aria-hidden="true">
+            <div class="hero_band hero_band--left"></div>
+        </div>
+        <div class="hero_content">
+            <h1 class="h1">В темноте<br>рождается свет</h1>
+            <p class="h3">Ваша пленка в надежных руках</p>
+            <div class="header_right">
+                <a href="#about" class="btn">Больше о нас</a>
+                <a href="#about" class="btn arrow"><img src="assets/icons/arrow-down.svg" alt="Стрелка"></a>
+            </div>
+        </div>
+    </section>
+    <!-- HERO END -->
+
+    <!-- ABOUT_US START -->
+    <section class="about-us" id="about">
+        <div class="container about-us_container">
+            <div class="about-us_up">
+                <p class="tcitata about-us_text">Более 10 лет мы бережно храним и даем жизнь вашим моментам. “Проявка”
+                    это не просто лаборатория, это место, где наука встречается с любовью к пленке. Ваши кадры попадают
+                    в надежные руки.</p>
+                <img class="about-us_star" src="assets/icons/star_cream.svg" alt="">
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <div class="h2">±0.1°C</div>
+                    <p class="snoska">Строгий контроль тепла и точный нагрев каждого бака. Это дает ровные тона и
+                        идеальный контраст</p>
+                </div>
+                <div class="stat">
+                    <div class="h2">100%</div>
+                    <p class="snoska">Свежие химические растворы, которые замешиваются индивидуально для каждой партии
+                    </p>
+                </div>
+                <div class="stat">
+                    <div class="h2">100%</div>
+                    <p class="snoska">Риска повреждений: бережная промывка и сушка в закрытой камере без пыли и царапин
+                    </p>
+                </div>
+                <div class="stat">
+                    <div class="h2">24ч</div>
+                    <p class="snoska">Минимальный срок готовности заказа с поддержкой индивидуальных режимов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT_US END -->
+
+    <!-- EDUCATION START -->
+    <section class="education" id="education">
+        <img class="deco d-red1" src="assets/icons/star-red.svg" alt="">
+        <img class="deco d-b1" src="assets/icons/star-beige.svg" alt="">
+        <img class="deco d-b2" src="assets/icons/star-beige.svg" alt="">
+        <img class="deco d-red2" src="assets/icons/star-red.svg" alt="">
+        <img class="deco d-reel" src="assets/image/education/reel.png" alt="">
+        <div class="container education_container">
+            <div class="education-title">
+                <img src="assets/icons/craft-beige.svg" alt="">
+                <h2 class="h2">Обучение</h2>
+            </div>
+            <div class="course">
+                <h3 class="h3">Интенсив «Съемка, проявка, печать»</h3>
+                <p class="text"><b>О мастер классе:</b> Масштабное погружение в аналоговую фотографию. На практике
+                    освоите базовые правила работы с пленкой, а затем проявите и напечатаете кадры.</p>
+                <p class="text"><b>Продолжительность:</b> 2-3 часа съемки; 3 часа лабораторная часть.</p>
+                <p class="text"><b>Стоимость:</b> 4500 ₽. (все расходные материалы уже включены).</p>
+            </div>
+            <div class="course">
+                <h3 class="h3">Фотопрогулка «Городской фокус»</h3>
+                <p class="text"><b>О мастер классе:</b> Совместное исследование улиц, во время которого мы откроем
+                    неизведанные тропы и научимся замечать необычные детали в привычных местах.</p>
+                <p class="text"><b>Продолжительность:</b> 1.5 часа на маршруте.</p>
+                <p class="text"><b>Стоимость:</b> 2000 ₽. (все расходные материалы уже включены).</p>
+            </div>
+            <button type="button" class="btn btn-dark" popovertarget="contact-modal">Связаться</button>
+        </div>
+    </section>
+
+    <!-- MODAL START -->
+    <div id="contact-modal" class="modal" role="dialog" popover aria-label="Связаться с нами">
+        <button type="button" class="modal_close" popovertarget="contact-modal" popovertargetaction="hide"
+            aria-label="Закрыть">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+            </svg>
+        </button>
+        <p class="modal_text">Пожалуйста, свяжитесь с нами в соцсетях для получения ответов на ваши вопросы и получении
+            подробностей и записи на мастер-класс.</p>
+        <div class="modal_links">
+            <a class="modal_link" href="https://ok.ru/" target="_blank" rel="noopener"><img
+                    src="assets/icons/social/ok_modal.svg" alt="">
+                <p>Одноклассники</p>
+            </a>
+            <a class="modal_link" href="https://vk.com/" target="_blank" rel="noopener"><img
+                    src="assets/icons/social/vk_modal.svg" alt="">
+                <p>ВКонтакте</p>
+            </a>
+            <a class="modal_link" href="https://max.ru/" target="_blank" rel="noopener"><img
+                    src="assets/icons/social/max_modal.svg" alt="">
+                <p>Маx</p>
+            </a>
+        </div>
+    </div>
+    <!-- MODAL END -->
+    <!-- EDUCATION END -->
+
+    <!-- SPECIALIST START -->
+    <section class="specialists" id="specialists">
+        <img class="deco d-strip" src="assets/icons/strip/strip_beige.svg" alt="">
+        <div class="container">
+            <h2 class="h2">Специалисты</h2>
+            <div class="spec_main">
+                <img class="frame" id="specialistMainPhoto" src="assets/image/specialist/person1.png"
+                    alt="Андрей Гришин">
+                <div class="spec_text" aria-live="polite">
+                    <p class="tcitata" id="specialistQuote">“В мире где все стало цифровым, мы помогаем сохранить
+                        настоящую магию момента, которую можно поддержать в руке”</p>
+                    <p class="specialist_caption">
+                        <span class="h3" id="specialistName">Андрей Гришин</span>
+                        <span class="snoska" id="specialistRole">Основатель проекта</span>
+                    </p>
+
+                    <!-- лента внутри правой колонки -->
+                    <div class="spec_strip" role="group" aria-label="Выбрать специалиста">
+                        <button class="spec_thumb is-active" type="button" data-specialist="0" aria-pressed="true"
+                            aria-label="Андрей Гришин">
+                            <img src="assets/image/specialist/person1.png" alt="Андрей Гришин">
+                        </button>
+                        <button class="spec_thumb" type="button" data-specialist="1" aria-pressed="false"
+                            aria-label="Артём Волков">
+                            <img src="assets/image/photo/specialist-thumb-1.jpg" alt="Артём Волков">
+                        </button>
+                        <button class="spec_thumb" type="button" data-specialist="2" aria-pressed="false"
+                            aria-label="Дарья Морозова">
+                            <img src="assets/image/specialist/person3.png" alt="Дарья Морозова">
+                        </button>
+                        <button class="spec_thumb" type="button" data-specialist="3" aria-pressed="false"
+                            aria-label="Кирилл Соколов">
+                            <img src="assets/image/photo/specialist-thumb-4.jpg" alt="Кирилл Соколов">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SPECIALIST END -->
+
+    <!-- FAQ START -->
+    <section class="faq" id="faq">
+        <img class="faq_strip" src="assets/icons/strip/strip-cream.svg" alt="">
+        <div class="container faq_container">
+            <div class="faq_left">
+                <p class="snoska">Ответы на вопросы</p>
+                <h2 class="h2">Частые вопросы</h2>
+                <div class="faq_line"></div>
+                <p class="text">Найдите ответы на самые популярные вопросы о наших услугах и обучении.</p>
+                <img class="faq_q" src="assets/image/photo/question.png" alt="">
+            </div>
+
+            <div class="faq_right">
+                <details class="faq_item" open>
+                    <summary>
+                        Как вас найти?
+                        <img src="assets/icons/arrow-faq.svg" alt="">
+                    </summary>
+                    <div class="faq_answer">
+                        <div class="video">
+                            <video src="assets/video/faq.mp4" poster="assets/image/photo/video-poster.png" controls
+                                playsinline></video>
+                        </div>
+                    </div>
+                </details>
+
+                <details class="faq_item">
+                    <summary>
+                        Какие виды пленок вы принимаете в работу?
+                        <img src="assets/icons/arrow-faq.svg" alt="">
+                    </summary>
+                    <div class="faq_answer">
+                        <p>Принимаем цветную и чёрно-белую плёнку форматов 35 мм и 120.</p>
+                    </div>
+                </details>
+
+                <details class="faq_item">
+                    <summary>
+                        Сколько по времени занимает проявка?
+                        <img src="assets/icons/arrow-faq.svg" alt="">
+                    </summary>
+                    <div class="faq_answer">
+                        <p>Минимальный срок — 24 часа, при индивидуальных режимах — дольше.</p>
+                    </div>
+                </details>
+
+                <details class="faq_item">
+                    <summary>
+                        Как вы сканируете пленку и в каком разрешении?
+                        <img src="assets/icons/arrow-faq.svg" alt="">
+                    </summary>
+                    <div class="faq_answer">
+                        <p>Уточняйте у администратора — разрешение подбирается под задачу.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ END -->
+
+    <!-- FORM START -->
+    <section class="request" id="form">
+        <div class="container request_container">
+            <form class="form" onsubmit="event.preventDefault();this.reset();alert('Спасибо! Мы свяжемся с вами.')">
+                <h2 class="h2">Заполни форму и мы с тобой свяжемся</h2>
+                <div class="row">
+                    <input type="text" placeholder="Имя" required>
+                    <input type="email" placeholder="Почта">
+                </div>
+                <input type="tel" placeholder="Телефон" required>
+                <select required>
+                    <option value="" disabled selected>Вид услуги</option>
+                    <option>Проявка пленки</option>
+                    <option>Сканирование</option>
+                    <option>Печать</option>
+                    <option>Обучение</option>
+                </select>
+                <label class="check">
+                    <input type="checkbox" required>
+                    <span class="snoska">Я согласен на <a href="assets/documents/privacy.pdf" target="_blank"
+                            class="privacy">обработку персональных данных</a></span>
+                </label>
+                <button type="submit" class="btn-brush">Отправить</button>
+            </form>
+        </div>
+    </section>
+    <!-- FORM END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="container footer_container">
+            <img class="fs fs1" src="assets/icons/star-beige.svg" alt="">
+            <img class="fs fs2" src="assets/icons/star-beige.svg" alt="">
+            <img class="fs fs3" src="assets/icons/star-red.svg" alt="">
+            <img class="fs fs4" src="assets/icons/star-red.svg" alt="">
+            <img class="fs fs5" src="assets/icons/star-beige.svg" alt="">
+            <p class="text center">Больше, чем просто фотографии</p>
+            <p class="h3 center">Сохраняйте моменты так, как они того заслуживают: честно, глубоко и с неповторимым
+                характером пленки.</p>
+            <div class="footer-btns">
+                <a href="#form" class="btn btn-small center-btn">Оставить заявку </a>
+                <a href="#form" class="btn btn-small center-btn arrow"><img src="assets/icons/arrow-up.svg" alt=""></a>
+            </div>
+            <div class="footer_cols">
+                <div class="footer-col"><span class="btn btn-small">Центральный офис</span>
+                    <p class="footer-font">г. Казань ул. Шамиля Усманова д10</p>
+                </div>
+                <div class="footer-col contact"><span class="btn btn-small">Контакты</span>
+                    <p class="footer-font"><a href="mailto:Proyavkaphoto@mail.ru">Proyavkaphoto@mail.ru</a></p>
+                    <!-- <p class="snoska">Наша команда часто занята, и может не услышать ваш звонок.</p> -->
+                    <div class="social">
+                        <a href="https://vk.ru/feed" target="_blank"><img src="assets/icons/social/vk.svg" alt="VK"></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><img src="assets/icons/social/pinterest.svg" alt="Pinterest"></a>
+                        <a href="https://ok.ru/" target="_blank"><img src="assets/icons/social/ok.svg" alt="OK"></a>
+                        <a href="https://max.ru/" target="_blank"><img src="assets/icons/social/max.svg" alt="Max"></a>
+                    </div>
+                </div>
+                <div class="footer-col for_clients"><span class="btn btn-small">Клиентам</span>
+                    <p class="footer-font"><a href="#faq">Ответы на вопросы</a></p>
+                    <p class="footer-font"><a href="#specialists">Специалисты</a></p>
+                    <p class="footer-font"><a href="#education">Обучение</a></p>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <img class="footer_logo" src="assets/image/footer/footer-proyavka.png" alt="Проявка">
+                <p class="text">© Проявка, 2026. Разработала: Мингабудинова Амалия Шамильевна, группа 327 Веб</p>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script>
+        (() => {
+            const specialists = [
+                {
+                    photo: 'assets/image/specialist/person1.png',
+                    name: 'Андрей Гришин',
+                    role: 'Основатель проекта',
+                    quote: '“В мире где все стало цифровым, мы помогаем сохранить настоящую магию момента, которую можно поддержать в руке”',
+                },
+                {
+                    photo: 'assets/image/specialist/person2.png',
+                    name: 'Валерия Высотская',
+                    role: 'Портретный фотограф',
+                    quote: '“Хороший кадр начинается с внимания к человеку и к тому, что происходит вокруг него”',
+
+                },
+                {
+                    photo: 'assets/image/specialist/person3.png',
+                    name: 'Дарья Морозова',
+                    role: 'Специалист лаборатории',
+                    quote: '“В проявке важны точность, терпение и внимание к каждой мелочи”',
+                },
+                {
+                    photo: 'assets/image/specialist/person4.png',
+                    name: 'Кирилл Соколов',
+                    role: 'Специалист команды',
+                    quote: '“В каждом кадре есть своя история — главное не потерять её детали”',
+                }
+            ];
+
+            const mainPhoto = document.getElementById('specialistMainPhoto');
+            const quote = document.getElementById('specialistQuote');
+            const name = document.getElementById('specialistName');
+            const role = document.getElementById('specialistRole');
+            const buttons = document.querySelectorAll('.spec_thumb');
+
+            if (!mainPhoto || !buttons.length) return;
+
+            let switchTimer = null;
+
+            buttons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    const selected = Number(button.dataset.specialist);
+                    const person = specialists[selected];
+                    if (!person) return;
+
+                    buttons.forEach((item) => {
+                        const active = item === button;
+                        item.classList.toggle('is-active', active);
+                        item.setAttribute('aria-pressed', String(active));
+                    });
+
+                    window.clearTimeout(switchTimer);
+                    mainPhoto.classList.add('is-changing');
+
+                    switchTimer = window.setTimeout(() => {
+                        mainPhoto.src = person.photo;
+                        mainPhoto.alt = person.name;
+                        if (quote) quote.textContent = person.quote;
+                        if (name) name.textContent = person.name;
+                        if (role) role.textContent = person.role;
+                        mainPhoto.classList.remove('is-changing');
+                    }, 140);
+                });
+            });
+        })();
+    </script>
+</body>
+
+</html>
